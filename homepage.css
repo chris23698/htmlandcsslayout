@@ -1,0 +1,72 @@
+/*mobile starts here*/
+
+.inner {
+  max-width: 987px;
+  margin: 0 auto;
+}
+
+.app-header {
+  background-color: #76e4eb;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+}
+.hero-banner {
+  background-color: #315fa4;
+  height: 420px;
+  left: 0px;
+  top: 48px;
+  margin-bottom: 20px;
+}
+
+.column {
+  background-color: #ca1dcd;
+  height: 220px;
+  left: 0px;
+  top: 488px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #c01887;
+  height: 162px;
+  left: 0px;
+  top: 1208px;
+}
+
+@media screen and (min-width: 767px) {
+  .app-header {
+    background-color: #76e4eb;
+    margin: 0%;
+    width: 987px;
+    height: 48px;
+  }
+  .hero-banner {
+    background-color: #315fa4;
+    width: 987px;
+    height: 420px;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    display: inline-block;
+    background-color: #ca1dcd;
+    width: 313px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .column:nth-child(3) {
+    margin-right: 0%;
+  }
+
+  .footer {
+    background-color: #c01887;
+    width: 987px;
+    height: 172px;
+  }
+  .cta {
+    max-width: 987px;
+    overflow: hidden;
+  }
+}
