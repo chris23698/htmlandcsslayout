@@ -1,4 +1,7 @@
 /*mobile starts here*/
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 
 .inner {
   max-width: 987px;
@@ -6,20 +9,50 @@
 }
 
 .app-header {
-  background-color: #76e4eb;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
   height: 48px;
-  left: 0px;
-  top: 0px;
+}
+.logo {
+  margin-left: 20px;
+}
+
+.hamburger-menu {
+  margin-right: 20px;
 }
 .hero-banner {
-  background-color: #315fa4;
+  background-image: url("./img/hero-banner.png");
+  background-color: transparent;
   height: 420px;
   left: 0px;
   top: 48px;
   margin-bottom: 20px;
 }
 
+.hero-text {
+  position: relative;
+  left: 15px;
+  top: 295px;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
 .column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: white;
   background-color: #ca1dcd;
   height: 220px;
   left: 0px;
@@ -27,11 +60,47 @@
   margin-bottom: 20px;
 }
 
+#dog-column {
+  background-image: url(./img/dog-column-1.png);
+  background-color: transparent;
+}
+
+#dog-column h2 {
+  font-weight: 200;
+  font-size: 32px;
+}
+
+#lizzard-column {
+  background-image: url(./img/lizzard.png);
+  background-color: transparent;
+}
+
+#lizzard-column h2 {
+  font-weight: 200;
+  font-size: 32px;
+}
+
+#butterfly-column {
+  background-image: url(./img/butterfly.png);
+  background-color: transparent;
+}
+
+#butterfly-column h2 {
+  font-weight: 200;
+  font-size: 32px;
+}
+
 .footer {
-  background-color: #c01887;
+  background-color: #444;
+  color: white;
   height: 162px;
   left: 0px;
   top: 1208px;
+  line
+}
+.footer-text {
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 767px) {
